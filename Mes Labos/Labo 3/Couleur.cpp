@@ -176,5 +176,66 @@ Couleur Couleur::operator-(const int nombre) const
     return newCouleur;
 }
 
+bool Couleur::operator<(const Couleur &rhs) const
+{
+    if (rouge < rhs . rouge)
+        return true;
+    if (rhs . rouge < rouge)
+        return false;
+    if (bleu < rhs . bleu)
+        return true;
+    if (rhs . bleu < bleu)
+        return false;
+    if (vert < rhs . vert)
+        return true;
+    if (rhs . vert < vert)
+        return false;
+    return nom < rhs . nom;
+}
+
+bool Couleur::operator>(const Couleur &rhs) const
+{
+    return rhs < *this;
+}
+
+bool Couleur::operator<=(const Couleur &rhs) const
+{
+    return !(rhs < *this);
+}
+
+bool Couleur::operator>=(const Couleur &rhs) const
+{
+    return !(*this < rhs);
+}
+
+ostream &operator<<(ostream &os, const Couleur &couleur)
+{
+    os << "rouge: " << couleur . rouge << " bleu: " << couleur . bleu << " vert: " << couleur . vert << " nom: "
+       << couleur . nom;
+
+    return os;
+}
+
+istream &operator>>(istream &is, const Couleur &couleur)
+{
+    int rouge;
+    cout << "Rouge : ";
+    is >> rouge;
+
+    int bleu;
+    cout << "Bleu : ";
+    is >> bleu;
+
+    int vert;
+    cout << "Vert : ";
+    is >> vert;
+
+    string nom;
+    cout << "Rouge : ";
+    is >> nom;
+
+    return is;
+}
+
 
 

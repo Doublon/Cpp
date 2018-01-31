@@ -8,8 +8,8 @@ void Essai1();
 void Essai2();
 void Essai3();
 void Essai4();
-//void Essai5();
-//void Essai6();
+void Essai5();
+void Essai6();
 //void Essai7();
 //void Essai8();
 
@@ -28,8 +28,8 @@ int main(int argc,char* argv[])
       case 2 : Essai2(); break;
       case 3 : Essai3(); break;
       case 4 : Essai4(); break;
-      //case 5 : Essai5(); break;
-      //case 6 : Essai6(); break;
+      case 5 : Essai5(); break;
+      case 6 : Essai6(); break;
       //case 7 : Essai7(); break;
       //case 8 : Essai8(); break;
       default : fini = true ; break;
@@ -214,7 +214,7 @@ void Essai4()
 //*******************************************************************************************************
 //*** Tests des operateurs < > et == de la classe Couleur ***********************************************
 //*******************************************************************************************************
-/*void Essai5()
+void Essai5()
 {
   cout << endl << "********************************************************************" << endl;
   cout <<         "(5) ***** Tests des operateurs < > et == de Couleur ****************" << endl;
@@ -228,12 +228,12 @@ void Essai4()
   if (c1 < c2) cout << "c1 est plus fonce que c2" << endl;
   if (c1 > c2) cout << "c1 est plus clair que c2" << endl;
   if (c1 == c2) cout << "c1 a la meme luminance que c2" << endl;
-}*/
+}
 
 //*******************************************************************************************************
 //*** Tests des operateurs << et >> de la classe Couleur ************************************************
 //*******************************************************************************************************
-/*void Essai6()
+void Essai6()
 {
   cout << "**************************************************************************" << endl;
   cout << "(6) ********* Tests des operateurs << et >> de Couleur *******************" << endl;
@@ -243,7 +243,7 @@ void Essai4()
   cout << "Nouvelle valeur pour c1 = ";
   cin >> c1;
   cout << c1 << endl << endl;
-}*/
+}
 
 //*******************************************************************************************************
 //*** Tests des operateurs ++ de la classe Couleur ******************************************************

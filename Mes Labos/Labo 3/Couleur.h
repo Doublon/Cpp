@@ -56,14 +56,21 @@ class Couleur
         int getLuminance() const;
 
         bool operator==(const Couleur &rhs) const;
-
         bool operator!=(const Couleur &rhs) const;
+        bool operator<(const Couleur &rhs) const;
+        bool operator>(const Couleur &rhs) const;
+        bool operator<=(const Couleur &rhs) const;
+        bool operator>=(const Couleur &rhs) const;
+
 
         Couleur& operator = (const Couleur& couleur);
         Couleur operator+ (const Couleur& couleur) const ;
         Couleur operator+ (const int nombre)const;
-        friend Couleur operator+ (const int nombre , const Couleur& couleur);
         Couleur operator- (const int nombre)const;
+
+        friend Couleur operator+ (const int nombre , const Couleur& couleur);
+        friend ostream &operator<<(ostream &os, const Couleur &couleur);
+        friend istream &operator>>(istream &is , const Couleur &couleur);
 };
 
 
