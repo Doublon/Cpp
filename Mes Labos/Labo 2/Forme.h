@@ -1,0 +1,46 @@
+//
+// Created by Doublon on 31/01/2018.
+//
+
+#ifndef FORME_H
+#define FORME_H
+
+#include <iostream>
+#include "Point.h"
+#include "Couleur.h"
+
+class Forme
+{
+    private:
+        char* id;
+        Point position;
+        const Couleur *couleur;
+        int profondeur;
+
+    public:
+        Forme();
+        Forme(char *id, const Point &position, Couleur *couleur, int profondeur);
+        Forme(char *id, const Point &position);
+        Forme(const Forme& forme);
+        virtual ~Forme();
+
+        char *getId() const;
+
+        void setId(char *id);
+
+        const Point &getPosition() const;
+
+        void setPosition(const Point &position);
+
+        const Couleur * getCouleur() const;
+
+        void setCouleur(const Couleur *couleur);
+
+        int getProfondeur() const;
+
+        void setProfondeur(int profondeur);
+
+        void Affiche()const;
+};
+
+#endif //LABO_2_FORME_H
