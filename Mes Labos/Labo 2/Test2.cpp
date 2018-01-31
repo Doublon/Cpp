@@ -24,7 +24,7 @@ int main(int argc,char* argv[])
     {
       case 1 : Essai1(); break;
       case 2 : Essai2(); break;
-      //case 3 : Essai3(); break;
+      case 3 : Essai3(); break;
       //case 4 : Essai4(); break;
       default : fini = true ; break;
     }
@@ -151,7 +151,7 @@ void Essai2()
 //*******************************************************************************************************
 //*** Tests des compteurs statiques d'objets ************************************************************
 //*******************************************************************************************************
-/*void Essai3()
+void Essai3()
 {
   cout << "(1) ***** Affichage des compteurs statiques ********************************************" << endl;
   cout << "Nb Objets Couleur = " << Couleur::getCompteur() << endl;
@@ -189,7 +189,7 @@ void Essai2()
   cout << "Nb Objets Couleur = " << Couleur::getCompteur() << endl;
   cout << "Nb Objets Point   = " << Point::getCompteur() << endl;
   cout << "Nb Objets Forme   = " << Forme::getCompteur() << endl << endl;
-}*/
+}
 
 //*******************************************************************************************************
 //*** Tests des variables statiques de type Couleur *****************************************************

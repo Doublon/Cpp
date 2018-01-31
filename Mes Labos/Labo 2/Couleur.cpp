@@ -3,7 +3,8 @@
 //
 
 #include "Couleur.h"
-using namespace std;
+
+int Couleur::compteurCouleur=0;
 
 Couleur::Couleur()
 {
@@ -11,22 +12,27 @@ Couleur::Couleur()
     setBleu(0);
     setVert(0);
     setNom(NULL);
+
+    this->compteurCouleur++;
 }
 
-Couleur::Couleur(int rouge, int bleu, int vert, char *nom)
+Couleur::Couleur(int rouge, int bleu, int vert, string nom)
 {
     setRouge(rouge);
     setBleu(bleu);
     setVert(vert);
     setNom(nom);
+
+    this->compteurCouleur++;
 }
 
-Couleur::Couleur(int rouge, int bleu, int vert) : rouge(rouge), bleu(bleu), vert(vert)
+Couleur::Couleur(int rouge, int bleu, int vert)
 {
     setRouge(rouge);
     setBleu(bleu);
     setVert(vert);
-    setNom(NULL);
+
+    this->compteurCouleur++;
 }
 
 Couleur::Couleur(const Couleur &couleur)
@@ -34,13 +40,15 @@ Couleur::Couleur(const Couleur &couleur)
     setRouge(couleur.getRouge());
     setBleu(couleur.getBleu());
     setVert(couleur.getVert());
-    if(couleur.getNom()!=NULL)
+    if(!couleur.getNom().empty())
         setNom(couleur.getNom());
+
+    this->compteurCouleur++;
 }
 
 Couleur::~Couleur()
 {
-
+    this->compteurCouleur--;
 }
 
 int Couleur::getRouge() const
@@ -73,23 +81,9 @@ void Couleur::setVert(int vert)
     Couleur::vert = vert;
 }
 
-char *Couleur::getNom() const
+string Couleur::getNom() const
 {
     return nom;
-}
-
-void Couleur::setNom(char *nom)const
-{
-    if(getNom() != NULL)
-        delete getNom();
-
-    if(nom != NULL)
-    {
-        nom= new char[strlen(nom)+1];
-        strcpy(getNom(),nom);
-    }
-    else
-        setNom(NULL);
 }
 
 void Couleur::Affiche() const
@@ -97,9 +91,19 @@ void Couleur::Affiche() const
     cout << "Rouge : " << getRouge() << endl;
     cout << "Bleu : " << getBleu() << endl;
     cout << "Vert : " << getVert() << endl;
-    if(getNom()!=NULL)
+    if(!getNom().empty())
         cout << "Nom : " << getNom() << endl;
 
+}
+
+void Couleur::setNom(const string &nom)
+{
+    Couleur::nom = nom;
+}
+
+int Couleur::getCompteur()
+{
+    return compteurCouleur;
 }
 
 

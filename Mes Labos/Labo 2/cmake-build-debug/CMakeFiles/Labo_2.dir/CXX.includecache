@@ -19,6 +19,8 @@ stdlib.h
 -
 string.h
 -
+string
+-
 
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 2/Forme.cpp
 Forme.h
@@ -31,6 +33,8 @@ Point.h
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 2/Point.h
 Couleur.h
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 2/Couleur.h
+string
+-
 
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 2/Point.cpp
 Point.h

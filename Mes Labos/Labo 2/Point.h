@@ -13,6 +13,7 @@ class Point
     private:
         int x;
         int y;
+        static int compteurPoint;
 
     public:
         Point();
@@ -29,6 +30,8 @@ class Point
         void setY(int y);
 
         void Affiche()const;
+
+        static int getCompteur();
 
 };
 

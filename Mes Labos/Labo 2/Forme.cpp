@@ -5,6 +5,8 @@
 #include "Forme.h"
 using namespace std;
 
+int Forme::compteurForme=0;
+
 Forme::Forme()
 {
     this->id = NULL;
@@ -12,6 +14,8 @@ Forme::Forme()
     this->position.setY(0);
     this->couleur = NULL;
     setProfondeur(0);
+
+    this->compteurForme++;
 }
 
 Forme::Forme(char *id, const Point &position, Couleur *couleur, int profondeur)
@@ -20,14 +24,18 @@ Forme::Forme(char *id, const Point &position, Couleur *couleur, int profondeur)
     setCouleur(couleur);
     setPosition(position);
     setProfondeur(profondeur);
+
+    this->compteurForme++;
 }
 
 Forme::Forme(char *id, const Point &position)
 {
     setId(id);
-    //setCouleur(NULL);
+    setCouleur(NULL);
     setPosition(position);
     setProfondeur(0);
+
+    this->compteurForme++;
 }
 
 Forme::Forme(const Forme &forme)
@@ -36,11 +44,13 @@ Forme::Forme(const Forme &forme)
     setCouleur(forme.getCouleur());
     setPosition(forme.getPosition());
     setProfondeur(forme.getProfondeur());
+
+    this->compteurForme++;
 }
 
 Forme::~Forme()
 {
-
+    this->compteurForme--;
 }
 
 char *Forme::getId() const
@@ -102,6 +112,11 @@ void Forme::Affiche() const
     else
         cout << "Aucune Couleur !" << endl;
     cout << "Profondeur  : " << getProfondeur() << endl;
+}
+
+int Forme::getCompteur()
+{
+    return compteurForme;
 }
 
 

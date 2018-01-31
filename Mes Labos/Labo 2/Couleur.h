@@ -9,7 +9,9 @@
 #include <fstream>
 #include <stdlib.h>
 #include <string.h>
+#include <string>
 
+using namespace std;
 
 class Couleur
 {
@@ -17,11 +19,12 @@ class Couleur
         int rouge;
         int bleu;
         int vert;
-        char * nom;
+        string nom;
+        static int compteurCouleur;
 
     public:
         Couleur();
-        Couleur(int rouge, int bleu, int vert, char *nom);
+        Couleur(int rouge, int bleu, int vert, string nom);
         Couleur(int rouge, int bleu, int vert);
         Couleur(const Couleur& coul);
         virtual ~Couleur();
@@ -38,9 +41,11 @@ class Couleur
 
         void setVert(int vert);
 
-        char *getNom() const;
+        string getNom() const;
 
-        void setNom(char *nom)const;
+        void setNom(const string &nom);
+
+        static int getCompteur();
 
         void Affiche() const ;
 };

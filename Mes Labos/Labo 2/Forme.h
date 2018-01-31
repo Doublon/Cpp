@@ -8,6 +8,9 @@
 #include <iostream>
 #include "Point.h"
 #include "Couleur.h"
+#include <string>
+
+using namespace std;
 
 class Forme
 {
@@ -16,6 +19,7 @@ class Forme
         Point position;
         const Couleur *couleur;
         int profondeur;
+        static int compteurForme;
 
     public:
         Forme();
@@ -39,6 +43,8 @@ class Forme
         int getProfondeur() const;
 
         void setProfondeur(int profondeur);
+
+        static int getCompteur();
 
         void Affiche()const;
 };
