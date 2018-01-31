@@ -25,7 +25,7 @@ int main(int argc,char* argv[])
       case 1 : Essai1(); break;
       case 2 : Essai2(); break;
       case 3 : Essai3(); break;
-      //case 4 : Essai4(); break;
+      case 4 : Essai4(); break;
       default : fini = true ; break;
     }
   }
@@ -194,7 +194,7 @@ void Essai3()
 //*******************************************************************************************************
 //*** Tests des variables statiques de type Couleur *****************************************************
 //*******************************************************************************************************
-/*void Essai4()
+void Essai4()
 {
   cout << "(1) ***** Tests de base ****************************************************************" << endl;
   Couleur::ROUGE.Affiche(); // ROUGE est un objet de la classe Couleur, il possede donc la methode Affiche()
@@ -221,5 +221,5 @@ void Essai3()
   cout << "(4) ***** Et pour le fun :) ! --> savoir expliquer !!! *********************************" << endl;
   cout << "Nb Objets Couleur = " << Couleur::BLEU.getCompteur() << endl;  
   cout << endl;
-}*/
+}
 

@@ -18,7 +18,7 @@ Forme::Forme()
     this->compteurForme++;
 }
 
-Forme::Forme(char *id, const Point &position, Couleur *couleur, int profondeur)
+Forme::Forme(char *id, const Point &position, const Couleur *couleur, int profondeur)
 {
     setId(id);
     setCouleur(couleur);

@@ -23,6 +23,10 @@ class Couleur
         static int compteurCouleur;
 
     public:
+        static const Couleur ROUGE;
+        static const Couleur BLEU;
+        static const Couleur VERT;
+
         Couleur();
         Couleur(int rouge, int bleu, int vert, string nom);
         Couleur(int rouge, int bleu, int vert);

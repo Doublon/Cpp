@@ -6,6 +6,10 @@
 
 int Couleur::compteurCouleur=0;
 
+const Couleur Couleur::ROUGE(255,0,0,"Rouge");
+const Couleur Couleur::BLEU(0,0,255,"Bleu");
+const Couleur Couleur::VERT(0,255,0,"Vert");
+
 Couleur::Couleur()
 {
     setRouge(0);

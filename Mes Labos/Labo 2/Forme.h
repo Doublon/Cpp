@@ -23,7 +23,7 @@ class Forme
 
     public:
         Forme();
-        Forme(char *id, const Point &position, Couleur *couleur, int profondeur);
+        Forme(char *id, const Point &position, const Couleur *couleur, int profondeur);
         Forme(char *id, const Point &position);
         Forme(const Forme& forme);
         virtual ~Forme();
