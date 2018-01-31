@@ -7,7 +7,7 @@ int  Menu();
 void Essai1();
 void Essai2();
 void Essai3();
-//void Essai4();
+void Essai4();
 //void Essai5();
 //void Essai6();
 //void Essai7();
@@ -27,7 +27,7 @@ int main(int argc,char* argv[])
       case 1 : Essai1(); break;
       case 2 : Essai2(); break;
       case 3 : Essai3(); break;
-      //case 4 : Essai4(); break;
+      case 4 : Essai4(); break;
       //case 5 : Essai5(); break;
       //case 6 : Essai6(); break;
       //case 7 : Essai7(); break;
@@ -186,7 +186,7 @@ void Essai3()
 //*******************************************************************************************************
 //*** Tests de l'operateur (- int) de la classe Couleur *************************************************
 //*******************************************************************************************************
-/*void Essai4()
+void Essai4()
 {
   cout << endl << "********************************************************************" << endl;
   cout <<         "(4) ***** Test de l'operateur (Couleur - int) **********************" << endl;
@@ -209,7 +209,7 @@ void Essai3()
 
     cout << "c1 (apres) : "; c1.Affiche(); // c1 ne doit pas etre modifie !!!!
   }
-}*/
+}
 
 //*******************************************************************************************************
 //*** Tests des operateurs < > et == de la classe Couleur ***********************************************

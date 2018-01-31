@@ -63,6 +63,7 @@ class Couleur
         Couleur operator+ (const Couleur& couleur) const ;
         Couleur operator+ (const int nombre)const;
         friend Couleur operator+ (const int nombre , const Couleur& couleur);
+        Couleur operator- (const int nombre)const;
 };
 
 

@@ -166,5 +166,15 @@ Couleur operator+(const int nombre, const Couleur &couleur)
     return newCouleur;
 }
 
+Couleur Couleur::operator-(const int nombre) const
+{
+    int rouge = getRouge()-nombre;
+    int vert = getVert()-nombre;
+    int bleu = getBleu()-nombre;
+
+    Couleur newCouleur(rouge,bleu,vert,getNom());
+    return newCouleur;
+}
+
 
 
