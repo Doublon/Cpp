@@ -45,6 +45,7 @@ class Couleur {
 		void Affiche () const;
 		int getLuminance() const;
 
+
 	//Fonctions operators de la classe//
 		Couleur& operator= (const Couleur&);
 		Couleur operator+ (const Couleur&) const;

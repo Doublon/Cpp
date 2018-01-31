@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 1/Couleur.cpp
+Couleur.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 1/Couleur.h
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 1/Couleur.h
+iostream
+-
+fstream
+-
+stdlib.h
+-
+string.h
+-
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 1/Test1.cpp
+stdlib.h
+-
+iostream
+-
+Couleur.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 1/Couleur.h
+

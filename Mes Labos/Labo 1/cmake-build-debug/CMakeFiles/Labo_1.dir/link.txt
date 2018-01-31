@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Labo_1.dir/Test1.cpp.o CMakeFiles/Labo_1.dir/Couleur.cpp.o  -o Labo_1.exe -Wl,--out-implib,libLabo_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
