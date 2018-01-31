@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Couleur.cpp
+Couleur.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Couleur.h
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Couleur.h
+iostream
+-
+fstream
+-
+stdlib.h
+-
+string.h
+-
+string
+-
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Forme.cpp
+Forme.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Forme.h
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Forme.h
+iostream
+-
+Point.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Point.h
+Couleur.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Couleur.h
+string
+-
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Point.cpp
+Point.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Point.h
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Point.h
+iostream
+-
+stdlib.h
+-
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Test3.cpp
+stdlib.h
+-
+iostream
+-
+Couleur.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 3/Couleur.h
+
