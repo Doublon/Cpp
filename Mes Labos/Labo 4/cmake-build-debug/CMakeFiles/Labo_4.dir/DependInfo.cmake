@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Ligne.cpp" "/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/cmake-build-debug/CMakeFiles/Labo_4.dir/Ligne.cpp.o"
   "/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Pixel.cpp" "/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/cmake-build-debug/CMakeFiles/Labo_4.dir/Pixel.cpp.o"
   "/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Point.cpp" "/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/cmake-build-debug/CMakeFiles/Labo_4.dir/Point.cpp.o"
+  "/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Rectangle.cpp" "/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/cmake-build-debug/CMakeFiles/Labo_4.dir/Rectangle.cpp.o"
   "/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Test4.cpp" "/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/cmake-build-debug/CMakeFiles/Labo_4.dir/Test4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

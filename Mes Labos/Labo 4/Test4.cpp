@@ -4,7 +4,7 @@ using namespace std;
 #include <time.h>
 #include "Pixel.h"
 #include "Ligne.h"
-//#include "Rectangle.h"
+#include "Rectangle.h"
 
 int  Menu();
 void Essai1();
@@ -26,9 +26,9 @@ int main(int argc,char* argv[])
     {
       case 1 : Essai1(); break;
       case 2 : Essai2(); break;
-//      case 3 : Essai3(); break;
-//     case 4 : Essai4(); break;
-//      case 5 : Essai5(); break;
+      case 3 : Essai3(); break;
+      case 4 : Essai4(); break;
+//     case 5 : Essai5(); break;
       default : fini = true ; break;
     }
   }
@@ -126,20 +126,8 @@ void Essai2()
 //***********************************************************************************************
 //*** Tests de la classe Rectangle **************************************************************
 //***********************************************************************************************
-/*
 void Essai3()
 {
-  cout << "(3.1) ***** Test du constructeur par defaut + setters de Rectangle ******************" << endl;
-  { 
-    Rectangle r;
-    cout << "r = " << r << endl;
-    cout << "--> modification de r" << endl;
-    r.setPosition(Point(50,90));
-    r.setDimX(300);
-    r.setDimY(200);
-    r.setRempli(true);
-    cout << "r = " << r << endl << endl;
-  }
 
   cout << "(3.2) ***** Test du constructeur d'initialisation + getters de Rectangle ************" << endl;
   { 
@@ -163,7 +151,6 @@ void Essai3()
     cout << "Copie = " << r << endl << endl; 
   }
 }
-*/
 
 //***********************************************************************************************
 // A FAIRE : normalement rien...
@@ -171,7 +158,7 @@ void Essai3()
 //***********************************************************************************************
 //*** Tests de la virtualite ********************************************************************
 //***********************************************************************************************
-/*void Essai4()
+void Essai4()
 {
   srand((unsigned)time(NULL));
 
@@ -192,8 +179,8 @@ void Essai3()
                cout << "Ligne" << endl;
                break;
 
-      case 2 : forme[i] = new Rectangle("R44",Point(50,20),200,100,true,&Couleur::BLEU,-20);
-               cout << "Rectangle" << endl;
+/*      case 2 : forme[i] = new Rectangle("RR11",Point(50,20),200,100,true,&Couleur::BLEU,-20);
+               cout << "Rectangle" << endl;*/
     }
   }
   cout << endl;
@@ -209,7 +196,7 @@ void Essai3()
   cout << "----- 4.4 Liberation memoire ----------------------------------------------------------------------------" << endl;
   for (int i=0 ; i<10 ; i++) delete forme[i];  // Tout se passe-t-il comme vous voulez ?
   // Pour etre plus precis, quid des destructeurs et de la virtualite ?
-}*/
+}
 
 //***********************************************************************************************
 // A FAIRE : normalement rien dans vos classes...

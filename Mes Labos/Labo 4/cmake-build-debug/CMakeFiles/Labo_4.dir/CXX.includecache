@@ -76,6 +76,14 @@ string.h
 fstream
 -
 
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Rectangle.cpp
+Rectangle.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Rectangle.h
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Rectangle.h
+Forme.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
+
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Test4.cpp
 stdlib.h
 -
@@ -87,4 +95,6 @@ Pixel.h
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Pixel.h
 Ligne.h
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Ligne.h
+Rectangle.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Rectangle.h
 

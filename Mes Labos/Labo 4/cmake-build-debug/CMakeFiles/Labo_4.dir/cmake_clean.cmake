@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Labo_4.dir/Point.cpp.o"
   "CMakeFiles/Labo_4.dir/Pixel.cpp.o"
   "CMakeFiles/Labo_4.dir/Ligne.cpp.o"
+  "CMakeFiles/Labo_4.dir/Rectangle.cpp.o"
   "Labo_4.pdb"
   "Labo_4.exe"
   "libLabo_4.dll.a"

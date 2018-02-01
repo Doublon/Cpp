@@ -24,10 +24,17 @@ CMakeFiles/Labo_4.dir/Pixel.cpp.o: ../Point.h
 CMakeFiles/Labo_4.dir/Point.cpp.o: ../Point.cpp
 CMakeFiles/Labo_4.dir/Point.cpp.o: ../Point.h
 
+CMakeFiles/Labo_4.dir/Rectangle.cpp.o: ../Couleur.h
+CMakeFiles/Labo_4.dir/Rectangle.cpp.o: ../Forme.h
+CMakeFiles/Labo_4.dir/Rectangle.cpp.o: ../Point.h
+CMakeFiles/Labo_4.dir/Rectangle.cpp.o: ../Rectangle.cpp
+CMakeFiles/Labo_4.dir/Rectangle.cpp.o: ../Rectangle.h
+
 CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Couleur.h
 CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Forme.h
 CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Ligne.h
 CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Pixel.h
 CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Point.h
+CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Rectangle.h
 CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Test4.cpp
 

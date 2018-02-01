@@ -110,6 +110,12 @@
 		<Unit filename="/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Point.h">
 			<Option target="Labo_4"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Rectangle.cpp">
+			<Option target="Labo_4"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Rectangle.h">
+			<Option target="Labo_4"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Test4.cpp">
 			<Option target="Labo_4"/>
 		</Unit>
