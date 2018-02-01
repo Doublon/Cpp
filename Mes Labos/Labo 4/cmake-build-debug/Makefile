@@ -177,6 +177,33 @@ Forme.cpp.s:
 	$(MAKE) -f CMakeFiles/Labo_4.dir/build.make CMakeFiles/Labo_4.dir/Forme.cpp.s
 .PHONY : Forme.cpp.s
 
+Ligne.o: Ligne.cpp.o
+
+.PHONY : Ligne.o
+
+# target to build an object file
+Ligne.cpp.o:
+	$(MAKE) -f CMakeFiles/Labo_4.dir/build.make CMakeFiles/Labo_4.dir/Ligne.cpp.o
+.PHONY : Ligne.cpp.o
+
+Ligne.i: Ligne.cpp.i
+
+.PHONY : Ligne.i
+
+# target to preprocess a source file
+Ligne.cpp.i:
+	$(MAKE) -f CMakeFiles/Labo_4.dir/build.make CMakeFiles/Labo_4.dir/Ligne.cpp.i
+.PHONY : Ligne.cpp.i
+
+Ligne.s: Ligne.cpp.s
+
+.PHONY : Ligne.s
+
+# target to generate assembly for a file
+Ligne.cpp.s:
+	$(MAKE) -f CMakeFiles/Labo_4.dir/build.make CMakeFiles/Labo_4.dir/Ligne.cpp.s
+.PHONY : Ligne.cpp.s
+
 Pixel.o: Pixel.cpp.o
 
 .PHONY : Pixel.o
@@ -273,6 +300,9 @@ help:
 	@echo "... Forme.o"
 	@echo "... Forme.i"
 	@echo "... Forme.s"
+	@echo "... Ligne.o"
+	@echo "... Ligne.i"
+	@echo "... Ligne.s"
 	@echo "... Pixel.o"
 	@echo "... Pixel.i"
 	@echo "... Pixel.s"

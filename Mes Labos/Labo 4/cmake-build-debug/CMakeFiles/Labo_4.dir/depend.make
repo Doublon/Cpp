@@ -9,6 +9,12 @@ CMakeFiles/Labo_4.dir/Forme.cpp.o: ../Forme.cpp
 CMakeFiles/Labo_4.dir/Forme.cpp.o: ../Forme.h
 CMakeFiles/Labo_4.dir/Forme.cpp.o: ../Point.h
 
+CMakeFiles/Labo_4.dir/Ligne.cpp.o: ../Couleur.h
+CMakeFiles/Labo_4.dir/Ligne.cpp.o: ../Forme.h
+CMakeFiles/Labo_4.dir/Ligne.cpp.o: ../Ligne.cpp
+CMakeFiles/Labo_4.dir/Ligne.cpp.o: ../Ligne.h
+CMakeFiles/Labo_4.dir/Ligne.cpp.o: ../Point.h
+
 CMakeFiles/Labo_4.dir/Pixel.cpp.o: ../Couleur.h
 CMakeFiles/Labo_4.dir/Pixel.cpp.o: ../Forme.h
 CMakeFiles/Labo_4.dir/Pixel.cpp.o: ../Pixel.cpp
@@ -20,6 +26,7 @@ CMakeFiles/Labo_4.dir/Point.cpp.o: ../Point.h
 
 CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Couleur.h
 CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Forme.h
+CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Ligne.h
 CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Pixel.h
 CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Point.h
 CMakeFiles/Labo_4.dir/Test4.cpp.o: ../Test4.cpp

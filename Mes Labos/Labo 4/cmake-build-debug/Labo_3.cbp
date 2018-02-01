@@ -92,6 +92,12 @@
 		<Unit filename="/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h">
 			<Option target="Labo_4"/>
 		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Ligne.cpp">
+			<Option target="Labo_4"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Ligne.h">
+			<Option target="Labo_4"/>
+		</Unit>
 		<Unit filename="/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Pixel.cpp">
 			<Option target="Labo_4"/>
 		</Unit>

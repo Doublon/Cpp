@@ -8,6 +8,8 @@
 #include <iostream>
 #include "Forme.h"
 
+using namespace std;
+
 class Pixel : public Forme
 {
     public:

@@ -3,7 +3,7 @@
 using namespace std;
 #include <time.h>
 #include "Pixel.h"
-//#include "Ligne.h"
+#include "Ligne.h"
 //#include "Rectangle.h"
 
 int  Menu();
@@ -25,7 +25,7 @@ int main(int argc,char* argv[])
     switch(choix)
     {
       case 1 : Essai1(); break;
-//      case 2 : Essai2(); break;
+      case 2 : Essai2(); break;
 //      case 3 : Essai3(); break;
 //     case 4 : Essai4(); break;
 //      case 5 : Essai5(); break;
@@ -87,7 +87,7 @@ void Essai1()
 //***********************************************************************************************
 //*** Tests de la classe Ligne ******************************************************************
 //***********************************************************************************************
-/*void Essai2()
+void Essai2()
 {
   cout << "(2.1) ***** Test du constructeur par defaut + setters de Ligne **********************" << endl;
   { 
@@ -117,7 +117,7 @@ void Essai1()
     delete pl;
     cout << "Copie = " << l << endl << endl; 
   }
-}*/
+}
 
 //***********************************************************************************************
 // A FAIRE: la classe Rectangle qui

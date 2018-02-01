@@ -5,11 +5,15 @@
 #ifndef FORME_H
 #define FORME_H
 
-#include <iostream>
 #include "Point.h"
 #include "Couleur.h"
-#include <string>
+
+#include <iostream>
+#include <stdlib.h>
+#include <string.h>
+#include <fstream>
 #include <sstream>
+
 
 using namespace std;
 

@@ -2,7 +2,6 @@
 // Created by Doublon on 31/01/2018.
 //
 
-using namespace std;
 #include "Point.h"
 
 
@@ -66,6 +65,12 @@ void Point::Affiche() const
 int Point::getCompteur()
 {
     return compteurPoint;
+}
+
+ostream &operator<<(ostream &os, const Point &point)
+{
+    os << "Point : X : " << point.getX() << " Y : " << point.getY() << endl ;
+    return os;
 }
 
 

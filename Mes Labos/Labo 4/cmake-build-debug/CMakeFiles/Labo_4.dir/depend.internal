@@ -9,6 +9,12 @@ CMakeFiles/Labo_4.dir/Forme.cpp.o
  /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.cpp
  /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
  /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Point.h
+CMakeFiles/Labo_4.dir/Ligne.cpp.o
+ /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Couleur.h
+ /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
+ /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Ligne.cpp
+ /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Ligne.h
+ /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Point.h
 CMakeFiles/Labo_4.dir/Pixel.cpp.o
  /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Couleur.h
  /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
@@ -21,6 +27,7 @@ CMakeFiles/Labo_4.dir/Point.cpp.o
 CMakeFiles/Labo_4.dir/Test4.cpp.o
  /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Couleur.h
  /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
+ /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Ligne.h
  /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Pixel.h
  /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Point.h
  /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Test4.cpp

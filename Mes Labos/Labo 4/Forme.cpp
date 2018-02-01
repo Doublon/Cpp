@@ -3,7 +3,7 @@
 //
 
 #include "Forme.h"
-using namespace std;
+
 
 int Forme::compteurForme=0;
 

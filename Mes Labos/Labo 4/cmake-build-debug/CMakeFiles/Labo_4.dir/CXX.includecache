@@ -27,18 +27,32 @@ Forme.h
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
 
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
-iostream
--
 Point.h
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Point.h
 Couleur.h
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Couleur.h
-string
+iostream
+-
+stdlib.h
+-
+string.h
+-
+fstream
 -
 sstream
 -
 
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Ligne.cpp
+Ligne.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Ligne.h
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Ligne.h
+Forme.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
+
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Pixel.cpp
+sstream
+-
 Pixel.h
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Pixel.h
 
@@ -57,6 +71,10 @@ iostream
 -
 stdlib.h
 -
+string.h
+-
+fstream
+-
 
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Test4.cpp
 stdlib.h
@@ -67,4 +85,6 @@ time.h
 -
 Pixel.h
 /cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Pixel.h
+Ligne.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Ligne.h
 

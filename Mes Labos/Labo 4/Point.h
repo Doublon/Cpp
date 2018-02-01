@@ -7,6 +7,10 @@
 
 #include <iostream>
 #include <stdlib.h>
+#include <string.h>
+#include <fstream>
+
+using namespace std;
 
 class Point
 {
@@ -32,6 +36,8 @@ class Point
         void Affiche()const;
 
         static int getCompteur();
+
+        friend ostream& operator<< (ostream& os , const Point& point);
 
 };
 

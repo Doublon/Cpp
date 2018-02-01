@@ -2,8 +2,8 @@
 // Created by Doublon on 01/02/2018.
 //
 
+#include <sstream>
 #include "Pixel.h"
-using namespace std;
 
 Pixel::Pixel() : Forme()
 {
@@ -50,7 +50,7 @@ void Pixel::setInfo()
         this->infos = ss.str();
     }
     else
-        this->infos = "Aucine info !!!";
+        this->infos = "Aucune info !!!";
 }
 
 string Pixel::getInfos() const
