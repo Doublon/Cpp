@@ -10,7 +10,7 @@ void Essai3();
 void Essai4();
 void Essai5();
 void Essai6();
-//void Essai7();
+void Essai7();
 //void Essai8();
 
 int main(int argc,char* argv[])
@@ -30,7 +30,7 @@ int main(int argc,char* argv[])
       case 4 : Essai4(); break;
       case 5 : Essai5(); break;
       case 6 : Essai6(); break;
-      //case 7 : Essai7(); break;
+      case 7 : Essai7(); break;
       //case 8 : Essai8(); break;
       default : fini = true ; break;
     }
@@ -248,7 +248,7 @@ void Essai6()
 //*******************************************************************************************************
 //*** Tests des operateurs ++ de la classe Couleur ******************************************************
 //*******************************************************************************************************
-/*void Essai7()
+void Essai7()
 {
   Couleur c(150,131,236,"Lavande");
   cout << "**********************************************************************" << endl;
@@ -264,7 +264,7 @@ void Essai6()
   cout << "c   : " << c << endl;
   cout << "c++ : " << c++ << endl;  // Si tout va bien, c est incremente apres avoir ete affiche !
   cout << "c   : " << c << endl << endl;
-}*/
+}
 
 //*******************************************************************************************************
 //*** Tests des operateurs -- de la classe Couleur ******************************************************

@@ -1,0 +1,72 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Couleur.cpp
+Couleur.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Couleur.h
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Couleur.h
+iostream
+-
+fstream
+-
+stdlib.h
+-
+string.h
+-
+string
+-
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.cpp
+Forme.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
+iostream
+-
+Point.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Point.h
+Couleur.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Couleur.h
+string
+-
+sstream
+-
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Pixel.cpp
+Pixel.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Pixel.h
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Pixel.h
+iostream
+-
+Forme.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Point.cpp
+Point.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Point.h
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Point.h
+iostream
+-
+stdlib.h
+-
+
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Test4.cpp
+stdlib.h
+-
+iostream
+-
+time.h
+-
+Forme.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Forme.h
+Pixel.h
+/cygdrive/d/GitHub/Cpp/Mes Labos/Labo 4/Pixel.h
+
