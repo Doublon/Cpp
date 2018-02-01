@@ -50,7 +50,7 @@ class Forme
 
         virtual void Affiche()const;
 
-        virtual string getInfos() = 0;
+        virtual string getInfos()const = 0;
 };
 
 #endif //LABO_2_FORME_H

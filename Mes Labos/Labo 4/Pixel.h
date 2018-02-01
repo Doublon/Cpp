@@ -8,7 +8,7 @@
 #include <iostream>
 #include "Forme.h"
 
-class Pixel : public Forme
+class Pixel : public virtual Forme
 {
     public:
         Pixel();

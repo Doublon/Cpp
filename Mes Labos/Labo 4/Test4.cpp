@@ -26,10 +26,10 @@ int main(int argc,char* argv[])
     switch(choix)
     {
       case 1 : Essai1(); break;
-      case 2 : Essai2(); break;
-      case 3 : Essai3(); break;
-      case 4 : Essai4(); break;
-      case 5 : Essai5(); break;
+//      case 2 : Essai2(); break;
+//      case 3 : Essai3(); break;
+//     case 4 : Essai4(); break;
+//      case 5 : Essai5(); break;
       default : fini = true ; break;
     }
   }
@@ -67,18 +67,19 @@ int Menu()
 void Essai1()
 {
   cout << "----- 1.1 Test des constructeurs de Pixel ------------------------------------" << endl;
-  Pixel p1,p2("PT56",Point(120,200)),p3("A23",Point(200,400),&Couleur::BLEU,-10),p4(p3);
+    Pixel p1;
+/*  Pixel p1,p2("PT56",Point(120,200)),p3("A23",Point(200,400),&Couleur::BLEU,-10),p4(p3);
   cout << "--> p1 (defaut) : " << p1 << endl;
   cout << "--> p2 (initialisation partiel) : " << p2 << endl;
   cout << "--> p3 (initialisation complet) : " << p3 << endl;
   cout << "--> p4 (copie de p3) : " << p4 << endl;
   cout << endl;
- 
+
   cout << "----- 1.2 Test de la methode getInfos() -----------------------------------------" << endl;
   cout << "--> p1 (defaut) : " << p1.getInfos() << endl;
   cout << "--> p2 (initialisation partiel) : " << p2.getInfos() << endl;
   cout << "--> p3 (initialisation complet) : " << p3.getInfos() << endl;
-  cout << "--> p4 (copie de p3) : " << p4.getInfos() << endl;
+  cout << "--> p4 (copie de p3) : " << p4.getInfos() << endl;*/
 }
 
 //***********************************************************************************************

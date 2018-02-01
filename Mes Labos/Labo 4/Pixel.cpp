@@ -8,29 +8,30 @@ using namespace std;
 Pixel::Pixel() : Forme()
 {
     setInfo();
+    compteurForme++;
 }
 
 Pixel::Pixel(char* id, Point point) : Forme(id,point)
 {
-    setId(id);
-    setPosition(point);
-
+    setInfo();
+    compteurForme++;
 }
 
-Pixel::Pixel(const Pixel& pixel) : Forme(pixel)
+Pixel::Pixel(const Pixel& pixel) : Forme(pixel.getId(),pixel.getPosition(),pixel.getCouleur(),pixel.getProfondeur())
 {
-    setId(pixel.getId());
+    setInfo();
+    compteurForme++;
 }
 
 Pixel::Pixel(char* id, Point point,const Couleur* couleur, int profondeur) : Forme(id,point,couleur,profondeur)
 {
-    setId(id);
     setInfo();
+    compteurForme++;
 }
 
-Pixel::~Pixel()
+Pixel::~Pixel ()
 {
-
+    compteurForme--;
 }
 
 void Pixel::setInfo()
