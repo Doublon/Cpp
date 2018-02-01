@@ -8,7 +8,7 @@
 #include <iostream>
 #include "Forme.h"
 
-class Pixel : public virtual Forme
+class Pixel : public Forme
 {
     public:
         Pixel();
@@ -18,7 +18,7 @@ class Pixel : public virtual Forme
         ~Pixel();
 
         void setInfo();
-        string getInfo() const ;
+        string getInfos() const ;
 
         friend ostream& operator<< (ostream& os , const Pixel& pixel);
 

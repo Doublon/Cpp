@@ -2,7 +2,6 @@
 #include <iostream>
 using namespace std;
 #include <time.h>
-#include "Forme.h"
 #include "Pixel.h"
 //#include "Ligne.h"
 //#include "Rectangle.h"
@@ -67,8 +66,7 @@ int Menu()
 void Essai1()
 {
   cout << "----- 1.1 Test des constructeurs de Pixel ------------------------------------" << endl;
-    Pixel p1;
-/*  Pixel p1,p2("PT56",Point(120,200)),p3("A23",Point(200,400),&Couleur::BLEU,-10),p4(p3);
+  Pixel p1,p2("PT56",Point(120,200)),p3("A23",Point(200,400),&Couleur::BLEU,-10),p4(p3);
   cout << "--> p1 (defaut) : " << p1 << endl;
   cout << "--> p2 (initialisation partiel) : " << p2 << endl;
   cout << "--> p3 (initialisation complet) : " << p3 << endl;
@@ -79,7 +77,7 @@ void Essai1()
   cout << "--> p1 (defaut) : " << p1.getInfos() << endl;
   cout << "--> p2 (initialisation partiel) : " << p2.getInfos() << endl;
   cout << "--> p3 (initialisation complet) : " << p3.getInfos() << endl;
-  cout << "--> p4 (copie de p3) : " << p4.getInfos() << endl;*/
+  cout << "--> p4 (copie de p3) : " << p4.getInfos() << endl;
 }
 
 //***********************************************************************************************

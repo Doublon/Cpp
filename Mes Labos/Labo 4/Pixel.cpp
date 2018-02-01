@@ -38,17 +38,22 @@ void Pixel::setInfo()
 {
     stringstream ss;
 
-    if(getCouleur()->getNom().empty())
-       ss << "[PIXEL : Position("<< getPosition().getX() << "," << getPosition().getY()<< ")" << "Couleur : (" << getCouleur()->getRouge() << "," << getCouleur()->getBleu() << "," <<
+    if(getCouleur() != NULL )
+    {
+        if(getCouleur()->getNom().empty())
+            ss << "[PIXEL : Position("<< getPosition().getX() << "," << getPosition().getY()<< ")" << "Couleur : (" << getCouleur()->getRouge() << "," << getCouleur()->getBleu() << "," <<
                getCouleur()->getVert() << ", inconnu) , Profondeur = " << getProfondeur() << "]";
-    else
-        ss << "[PIXEL : Position("<< getPosition().getX() << "," << getPosition().getY()<< ")" << "Couleur : (" << getCouleur()->getRouge() << "," << getCouleur()->getBleu() << "," <<
-           getCouleur()->getVert() << "," << getCouleur()->getCompteur() << ") , Profondeur = " << getProfondeur() << "]";
+        else
+            ss << "[PIXEL : Position("<< getPosition().getX() << "," << getPosition().getY()<< ")" << "Couleur : (" << getCouleur()->getRouge() << "," << getCouleur()->getBleu() << "," <<
+               getCouleur()->getVert() << "," << getCouleur()->getCompteur() << ") , Profondeur = " << getProfondeur() << "]";
 
-    this->infos = ss.str();
+        this->infos = ss.str();
+    }
+    else
+        this->infos = "Aucine info !!!";
 }
 
-string Pixel::getInfo() const
+string Pixel::getInfos() const
 {
     if(this->infos.empty())
         return "Aucune info";
@@ -58,12 +63,20 @@ string Pixel::getInfo() const
 
 ostream &operator<<(ostream &os, const Pixel &pixel)
 {
-    if(pixel.getCouleur()->getNom().empty())
-        os << "[PIXEL : Position("<< pixel.getPosition().getX() << "," << pixel.getPosition().getY()<< ")" << "Couleur : (" << pixel.getCouleur()->getRouge() << "," <<
-           pixel.getCouleur()->getBleu() << "," << pixel.getCouleur()->getVert() << ", inconnu) , Profondeur = " << pixel.getProfondeur() << "]";
+    if(pixel.getCouleur() != NULL)
+    {
+        if(pixel.getCouleur()->getNom().empty())
+            os << "[PIXEL : Position("<< pixel.getPosition().getX() << "," << pixel.getPosition().getY()<< ")" << "Couleur : (" << pixel.getCouleur()->getRouge() << "," <<
+               pixel.getCouleur()->getBleu() << "," << pixel.getCouleur()->getVert() << ", inconnu) , Profondeur = " << pixel.getProfondeur() << "]";
+        else
+            os << "[PIXEL : Position("<< pixel.getPosition().getX() << "," << pixel.getPosition().getY()<< ")" << "Couleur : (" << pixel.getCouleur()->getRouge() << "," <<
+               pixel.getCouleur()->getBleu() << "," << pixel.getCouleur()->getVert() << "," << pixel.getCouleur()->getCompteur() << ") , Profondeur = " << pixel.getProfondeur() << "]";
+    }
     else
-        os << "[PIXEL : Position("<< pixel.getPosition().getX() << "," << pixel.getPosition().getY()<< ")" << "Couleur : (" << pixel.getCouleur()->getRouge() << "," <<
-           pixel.getCouleur()->getBleu() << "," << pixel.getCouleur()->getVert() << "," << pixel.getCouleur()->getCompteur() << ") , Profondeur = " << pixel.getProfondeur() << "]";
+    {
+        os << "[PIXEL : Position("<< pixel.getPosition().getX() << "," << pixel.getPosition().getY()<< ")" << "Couleur : (0,0,0,aucune) , Profondeur = " << pixel.getProfondeur() << "]";
+    }
+
 
     return os;
 }
